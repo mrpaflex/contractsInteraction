@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "inputVal",
+						"type": "uint256"
+					}
+				],
+				"name": "inputValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rand",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"rand()": {
+					"notice": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"allPractice/hashing.sol": "oracle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"allPractice/hashing.sol": {
+			"keccak256": "0x681377ea7fec466f623ed5bd9c444c263b9cae2597585b4b36721c2aa03a5b99",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebdd28114aff432cd926d7f12a4e74dc6997276a8225280c8fbe78e339610280",
+				"dweb:/ipfs/QmRQ3CyVNaTr4435QvXiT6AboJaviJiXq2JbtypnmkEcR9"
+			]
+		}
+	},
+	"version": 1
+}

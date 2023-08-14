@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hashcheck",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"hashcheck()": {
+					"notice": "uint hash = ;"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"allPractice/hashing.sol": "hashsome"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"allPractice/hashing.sol": {
+			"keccak256": "0x7113c159f8699ae716278ce10f03d9f2c82f390ae646ec3135b01c450e2c2ee8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://88aa87921bf00ceaf1a981a2de08960c7a3dbad54462fa53739489f3d5f0f274",
+				"dweb:/ipfs/QmVnF41QmVUuVn9mxvg9jYx1wtVaHHhBEbbdDVm5Uz9tSi"
+			]
+		}
+	},
+	"version": 1
+}
